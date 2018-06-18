@@ -95,7 +95,7 @@ year = '2004'
 for i in month_list:
     curr = year + i
     year_month.append(curr)
-    # print(curr)
+    print(curr) 
 
 dx = df[(df.month.isin(year_month)) & (df.state == 'Connecticut')]
 
@@ -103,6 +103,7 @@ print(dx['month'])
 # for i in range(0,df.shape[0]):
 
 year_month [:] = []
+print(year_month)
 
 
 #     print( str([df.loc[i, 'month ']]) + ' ' + str([df.loc[i, 'state']]) )
