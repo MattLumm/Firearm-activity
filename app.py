@@ -22,7 +22,7 @@ mapbox_access_token = "pk.eyJ1IjoiamFja3AiLCJhIjoidGpzN0lXVSJ9.7YK6eRwUNFwd3ODZf
 state_to_code = {
     # # Other
     # 'District of Columbia': 'DC',
-    
+
     # States
     'Alabama': 'AL',
     'Montana': 'MT',
@@ -178,7 +178,7 @@ def update_figure(selected_year):
         'layout': go.Layout(
             title = 'US Firearms Provisions by State for ' + str(selected_year),
             width = 800,
-            height = 800,
+            height = 900,
             geo = dict(
                 scope = 'usa',
                 projection = dict (type= 'albers usa'),
